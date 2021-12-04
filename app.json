@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "blazepose-visualize-react",
+    "slug": "blazepose-visualize-react",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "blazepose-visualize-react"
+}
