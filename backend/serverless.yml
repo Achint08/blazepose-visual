@@ -1,0 +1,18 @@
+org: yourorganizationname
+app: my-aws-python-http-api-app
+service: my-aws-python-http-api-app
+
+frameworkVersion: "2"
+
+provider:
+  name: aws
+  runtime: python3.8
+  lambdaHashingVersion: "20201221"
+
+functions:
+  get_all_data:
+    handler: handler.get_all_data
+    events:
+      - http:
+          path: /
+          method: get

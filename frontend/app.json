@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Blazepose Search",
+    "slug": "blazepose-visual-search",
+    "version": "1.0.0",
+    "description": "Application to visualize blazepose",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "blazepose.excercise.search"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "blazepose.excercise.search"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
